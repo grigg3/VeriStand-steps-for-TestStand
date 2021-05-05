@@ -18,6 +18,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="_sandbox" Type="Folder">
+			<Item Name="_testRTseqBug.vi" Type="VI" URL="../../ConfigTime/_testRTseqBug.vi"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test - Is VeriStand Running.vi" Type="VI" URL="../tests/Test - Is VeriStand Running.vi"/>
 		</Item>
@@ -88,7 +91,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/ni-veristand-steps-runtime-lib.lvlib/build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D975B79C-6A9C-4BFA-B908-817ED864B8DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../build_temp/ni-veristand-steps-runtime-lib.lvlibp</Property>
@@ -100,7 +103,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DBB10510-41F5-4318-9E96-717ACC15D68F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{56FC3902-A714-4B47-97D6-2E72FDAAA9E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ni-veristand-steps-runtime-lib.lvlib</Property>

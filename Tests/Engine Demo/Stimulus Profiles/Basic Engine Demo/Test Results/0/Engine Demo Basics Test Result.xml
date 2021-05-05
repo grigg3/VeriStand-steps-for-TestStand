@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="TRML.xsl"?>
-<TestResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="f409430a-ecf3-4c12-be22-e57c9a915abe" xmlns="urn:IEEE-1636.1:2013:TestResults">
+<TestResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="368e4821-27cf-4235-93ee-7dee3f2332db" xmlns="urn:IEEE-1636.1:2013:TestResults">
 	<Personnel>
 		<SystemOperator ID="WINDOWS-5TNRL0P\Administrator" />
 	</Personnel>
 	<References>
-		<Reference uuid="bd5eeb36-13a3-4a3e-ac96-9f6cc3dd4a83" name="Engine Demo Basics">
+		<Reference uuid="e2d61547-16b3-4726-85c5-371ac07cbb48" name="Engine Demo Basics">
 			<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Administrator\Desktop\GIT\VeriStand-steps-for-TestStand\Tests\Engine Demo\Stimulus Profiles\Basic Engine Demo\Engine Demo Basics.nivsstimprof</Text>
 		</Reference>
 	</References>
-	<ResultSet endDateTime="2021-05-02T00:47:50.9111047-05:00" startDateTime="2021-05-02T00:47:40.8401036-05:00" name="C:\Users\Administrator\Desktop\GIT\VeriStand-steps-for-TestStand\Tests\Engine Demo\Stimulus Profiles\Basic Engine Demo\Test Results\0\Engine Demo Basics Test Result.xml" ID="Test Result">
-		<Outcome value="Aborted" />
-		<TestGroup endDateTime="2021-05-02T00:47:40.8401036-05:00" startDateTime="2021-05-02T00:47:40.8401036-05:00" name="Setup" ID="Setup">
+	<ResultSet endDateTime="2021-05-03T02:50:38.035434-05:00" startDateTime="2021-05-03T02:50:17.4574299-05:00" name="C:\Users\Administrator\Desktop\GIT\VeriStand-steps-for-TestStand\Tests\Engine Demo\Stimulus Profiles\Basic Engine Demo\Test Results\0\Engine Demo Basics Test Result.xml" ID="Test Result">
+		<Outcome value="Passed" />
+		<TestGroup endDateTime="2021-05-03T02:50:17.4574299-05:00" startDateTime="2021-05-03T02:50:17.4574299-05:00" name="Setup" ID="Setup">
 			<Outcome value="Passed" />
-			<Test endDateTime="2021-05-02T00:47:40.8571046-05:00" startDateTime="2021-05-02T00:47:40.8401036-05:00" name="Open Workspace" ID="Setup/Open Workspace">
+			<Test endDateTime="2021-05-03T02:50:17.4994306-05:00" startDateTime="2021-05-03T02:50:17.4574299-05:00" name="Open Workspace" ID="Setup/Open Workspace">
 				<Outcome value="Passed" />
 			</Test>
 		</TestGroup>
-		<TestGroup endDateTime="2021-05-02T00:47:40.8571046-05:00" startDateTime="2021-05-02T00:47:40.8571046-05:00" name="Main" ID="Main">
-			<Outcome value="Aborted" />
-			<Test endDateTime="2021-05-02T00:47:50.8991054-05:00" startDateTime="2021-05-02T00:47:40.8571046-05:00" name="Engine Demo Basic" ID="Main/Call RealTimeSequence: Engine Demo Basic.nivsseq">
+		<TestGroup endDateTime="2021-05-03T02:50:17.4994306-05:00" startDateTime="2021-05-03T02:50:17.4994306-05:00" name="Main" ID="Main">
+			<Outcome value="Passed" />
+			<Test endDateTime="2021-05-03T02:50:38.0274341-05:00" startDateTime="2021-05-03T02:50:17.4994306-05:00" name="Engine Demo Basic" ID="Main/Call RealTimeSequence: Engine Demo Basic.nivsseq">
 				<Parameters>
 					<Parameter ID="EnginePower">
 						<Data>
@@ -36,13 +36,13 @@
 						</Data>
 					</Parameter>
 					<Parameter ID="Main/Call RealTimeSequence: Engine Demo Basic.nivsseq.SequenceFile" name="Engine Demo Basic">
-						<Reference uuid="f692e3ed-6e33-46bc-8c2d-4f89a706b939" name="Engine Demo Basic">
+						<Reference uuid="48b10f3f-f9f0-41c1-acd7-b5837b2e4b1c" name="Engine Demo Basic">
 							<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Administrator\Desktop\GIT\VeriStand-steps-for-TestStand\Tests\Engine Demo\Stimulus Profiles\Basic Engine Demo\Engine Demo Basic.nivsseq</Text>
 						</Reference>
 					</Parameter>
 				</Parameters>
-				<Outcome value="Aborted" />
-				<TestResult ID="ID_813e8405-0328-44b1-bdb7-e08594935cfc" name="Output">
+				<Outcome value="Passed" />
+				<TestResult ID="ID_547d4f21-9875-440f-ad69-83a84b696a24" name="Output">
 					<TestData>
 						<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
 							<Value>&lt;Void&gt;</Value>
@@ -51,6 +51,9 @@
 				</TestResult>
 			</Test>
 		</TestGroup>
+		<Test endDateTime="2021-05-03T02:50:38.035434-05:00" startDateTime="2021-05-03T02:50:38.035434-05:00" name="Clean Up" ID="Clean Up">
+			<Outcome value="Passed" />
+		</Test>
 	</ResultSet>
 	<TestDescription>
 		<Definition version="1_0_0_0" xmlns="urn:IEEE-1671:2010:Common">

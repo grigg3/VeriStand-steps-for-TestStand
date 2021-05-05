@@ -13,5 +13,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
     <EnableSQLServerDebugging>true</EnableSQLServerDebugging>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files %28x86%29\National Instruments\TestStand 2020\Bin\SeqEdit.exe</StartProgram>
   </PropertyGroup>
 </Project>
