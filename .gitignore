@@ -20,3 +20,5 @@ Source/LabVIEW Code/VeriStand Silent Start/SilentVS.lvlps
 *.lvlibp
 *.suo
 Tests/Tests
+Export/
+built/
