@@ -27,6 +27,7 @@ namespace OpenWorkspaceDialog
         PropertyObjectFile propObjectFile;
         PropertyObject stepPropertyObject;
         bool deploying = true;
+        bool deploySelected = false;
         public ConfigureSystemDefinition(SequenceContext _seqContext,bool _deploying)
         {
             InitializeComponent();
@@ -73,6 +74,7 @@ namespace OpenWorkspaceDialog
             {
                 //Variables are not already created. They will be created later
                 deploysysdef_exp.Text = "True";
+                deploySelected = (deploysysdef_exp.Text == "True"); 
                 SystemDefinitionPath = "";
                 this.systemDefinitionPath_exp.Text = SystemDefinitionPath;
 
@@ -94,7 +96,8 @@ namespace OpenWorkspaceDialog
         {
             //Make or Set all specified variables in TestStand
             /*Set variables needed for other steps in System Definition and Project since these steps are guaranteed to be called first*/
-            stepPropertyObject.SetValString("Veristand.DeploySystemDefinition", 1, deploysysdef_exp.Text);
+            //stepPropertyObject.SetValString("Veristand.DeploySystemDefinition", 1, deploysysdef_exp.Text);
+            stepPropertyObject.SetValBoolean("Veristand.DeploySystemDefinition", 1, deploySelected);
             if (deploying)
             {
                 permSeqContext.SetValIDispatch("Veristand.VSDialogs", 1, null);

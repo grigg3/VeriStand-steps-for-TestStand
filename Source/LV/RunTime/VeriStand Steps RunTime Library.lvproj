@@ -18,9 +18,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_sandbox" Type="Folder">
-			<Item Name="_testRTseqBug.vi" Type="VI" URL="../../ConfigTime/_testRTseqBug.vi"/>
-		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test - Is VeriStand Running.vi" Type="VI" URL="../tests/Test - Is VeriStand Running.vi"/>
 		</Item>
