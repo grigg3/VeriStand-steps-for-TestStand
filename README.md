@@ -18,6 +18,16 @@ A **User Guide**, **Developer Guide**, and **Example Sequences** are installed t
 
 These files can also be found in the **[Documentation](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/tree/develop/Documentation)** folder in the top-level of this repository.
 
+#### (Unstable) version 8.1.1  ####
+
+This version does not have a release package and has been tested with the following SW stack:
+
+1. TestStand 2020 32-bit
+1. Veristand 2020 R4
+1. LabVIEW 2020
+
+You need to follow the [Developer Guide] (https://github.com/fmussi/VeriStand-steps-for-TestStand/blob/master/Documentation/VeriStand%20Steps%20for%20TestStand%20Developer%20Guide.docx) for building and installing to your machine. 
+
 #### Installing version 8.0.0 and newer (using NI Package Manager) ####
 ***IMPORTANT: If upgrading from version 7.x.x or older be sure to remove any previous versions using Add/Remove Programs in the Windows Control Panel. If upgrading from version 8.x.x or later it is not necessary to remove previous versions.***
 
@@ -35,12 +45,12 @@ These files can also be found in the **[Documentation](https://github.com/NIVeri
 
 #### Currently supported NI VeriStand versions ####
 
-* NI VeriStand 2015 SP1, 2016, 2017, and 2018
+* NI VeriStand 2015 SP1, 2016, 2017 2018 (stable). 2020 (unstable)
 
 Beginning with version 7.2.2 each package or installer for the NI VeriStand Step Types includes support for *one version of VeriStand* and *all currently supported TestStand versions*. It is *not* necessary to have every version of TestStand installed in order to use the step types. It is not necessary to reinstall the VeriStand Step Types after installing a new supported version of NI TestStand. 
 
 #### Currently supported NI TestStand versions ####
-* NI TestStand 2014, 2016, and 2017 (32- and 64-bit)
+* NI TestStand 2014, 2016, and 2017 (32- and 64-bit). 2020 32-bit (unstable)
 
 
 For example, the **ni-veristand-2018-steps-for-teststand_7.2.2+001.nipkg** package installs NI VeriStand 2018 compatible step types for all versions of TestStand listed above. 
