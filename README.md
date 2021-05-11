@@ -26,7 +26,7 @@ This version does not have a release package and has been tested with the follow
 1. Veristand 2020 R4
 1. LabVIEW 2020
 
-You need to follow the [Developer Guide] (https://github.com/fmussi/VeriStand-steps-for-TestStand/blob/master/Documentation/VeriStand%20Steps%20for%20TestStand%20Developer%20Guide.docx) for building and installing to your machine. 
+You need to follow the **[Developer Guide](https://github.com/fmussi/VeriStand-steps-for-TestStand/blob/master/Documentation/VeriStand%20Steps%20for%20TestStand%20Developer%20Guide.docx)** for building and installing it to your machine. 
 
 #### Installing version 8.0.0 and newer (using NI Package Manager) ####
 ***IMPORTANT: If upgrading from version 7.x.x or older be sure to remove any previous versions using Add/Remove Programs in the Windows Control Panel. If upgrading from version 8.x.x or later it is not necessary to remove previous versions.***
