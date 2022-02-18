@@ -1,0 +1,11 @@
+1. Navigate to VeriStand-steps-for-TestStand\Source\LV\builds\NI VeriStand Steps for TestStand\Volume directory
+2. Run Setup.exe as administrator. This installer does the following:
+  a. Places necessary TestStand files for new step types to C:\Users\Public\Documents\National Instruments\TestStand 2020 (32-bit)\Components\TypePalettes
+	i. ni-veristand-steps-runtime-lib.lvlibp - LabVIEW packed library that calls into C# assembly (think wrapper)
+        ii. ni-veristand-steps-configuration.conf - For indicating correct VeriStand executable
+        iii. NI_VeristandTypes.ini - Describes step types for TestStand
+  b. Creates a directory in the GAC for the VeristandSteps assembly to C:\Windows\Microsoft.NET\assembly\GAC_MSIL
+  c. Copies the NationalInstruments.VeriStandSteps.dll to previously created directory
+	i. This dll is a wrapper for calls into the out of the box VeriStand API provided by NI and supported by NI R&D
+3. Finally, run the "RegisterWithGAC.exe" installer located at C:\Users\jgrigg\Documents\GitHub\VeriStand-steps-for-TestStand\Source\CSharp\AddToGAC\AddToGAC\bin\Release
+	i. This registers the extra C# assembly with the Microsoft Windows GAC in the directory created during step 2
